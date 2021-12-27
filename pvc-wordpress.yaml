@@ -4,11 +4,15 @@ metadata:
   name: wp-pv-claim
   labels:
     app: wordpress
-    
+
 spec:
   accessModes:
     - ReadWriteOnce
   resources:
     requests:
       storage: 6Gi
+<<<<<<< HEAD
      
+=======
+      
+>>>>>>> 544ca92dda3bd67e9c908dec4a04c79b0217d9d8
