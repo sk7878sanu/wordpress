@@ -4,8 +4,7 @@ metadata:
   name: wp-pv-claim
   labels:
     app: wordpress
-  annotations:
-    argocd.argoproj.io/sync-options: Validate=false  
+    
 spec:
   accessModes:
     - ReadWriteOnce
