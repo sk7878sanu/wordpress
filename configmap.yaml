@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: wordpress-data
+data:
+  mysql-password: DEVOPS1
+  mysql_host: wordpress-mysql
+
