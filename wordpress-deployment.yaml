@@ -44,10 +44,9 @@ spec:
                 key: mysql_host
         - name: WORDPRESS_DB_PASSWORD
           valueFrom:
-            secretKeyRef:
-              configMapKeyRef:
-                name: wordpress-data
-                key: mysql_password
+             secretKeyRef:
+                name: wp-secrets
+                key: mysql_pass
         ports:
         - containerPort: 80
           name: wordpress
